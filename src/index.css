@@ -1,0 +1,61 @@
+@font-face {
+  font-family: QuickSand;
+  src: url("https://fonts.googleapis.com/css?family=quicksand");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-main {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-bottom: solid 1.5px black;
+}
+
+#search-bar {
+  width: 40%;
+  height: 35px;
+  border: none 1.5px;
+  border-radius: 15px;
+  background-color: rgb(224, 224, 224);
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#logo {
+  background-image: url("../images/logo.png");
+  height: 70px;
+  width: 272px;
+}
+
+#navbar {
+  /* display: flex; */
+  justify-content: space-evenly;
+  align-items: center;
+  height: inherit;
+  width: 60%;
+}
+
+#navbar a {
+  color: rgb(0, 0, 0);
+  font-family: "QuickSand", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: rgb(39, 180, 67);
+  text-decoration: underline;
+}
+
+.products {
+  clear: both;
+  display: block;
+  background-color: black;
+  color: white;;
+}
